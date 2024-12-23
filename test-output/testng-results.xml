@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="56" passed="56" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T03:57:57 IST" name="PetStoreSuite" finished-at="2024-12-24T03:59:19 IST" duration-ms="82575">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T03:57:57 IST" name="ApiTest" finished-at="2024-12-24T03:58:23 IST" duration-ms="26441">
+      <class name="api.Tests.PetTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.Tests.PetTest@292b08d6]" started-at="2024-12-24T03:58:14 IST" name="setup" finished-at="2024-12-24T03:58:14 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewPetInStore()[pri:1, instance:api.Tests.PetTest@292b08d6]" started-at="2024-12-24T03:58:14 IST" name="addNewPetInStore" finished-at="2024-12-24T03:58:16 IST" duration-ms="1487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetInStore -->
+        <test-method signature="updateExistingPetDetails()[pri:2, instance:api.Tests.PetTest@292b08d6]" started-at="2024-12-24T03:58:16 IST" name="updateExistingPetDetails" finished-at="2024-12-24T03:58:17 IST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingPetDetails -->
+        <test-method signature="findPetById()[pri:3, instance:api.Tests.PetTest@292b08d6]" started-at="2024-12-24T03:58:17 IST" name="findPetById" finished-at="2024-12-24T03:58:19 IST" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPetById -->
+        <test-method signature="findPetByStatus()[pri:4, instance:api.Tests.PetTest@292b08d6]" started-at="2024-12-24T03:58:19 IST" name="findPetByStatus" finished-at="2024-12-24T03:58:21 IST" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPetByStatus -->
+        <test-method signature="updatePetDetailsWithFormData()[pri:5, instance:api.Tests.PetTest@292b08d6]" started-at="2024-12-24T03:58:21 IST" name="updatePetDetailsWithFormData" finished-at="2024-12-24T03:58:22 IST" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePetDetailsWithFormData -->
+        <test-method signature="deletePetFromStore()[pri:6, instance:api.Tests.PetTest@292b08d6]" started-at="2024-12-24T03:58:22 IST" name="deletePetFromStore" finished-at="2024-12-24T03:58:23 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetFromStore -->
+      </class> <!-- api.Tests.PetTest -->
+      <class name="api.Tests.StoreTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.Tests.StoreTest@206a70ef]" started-at="2024-12-24T03:58:09 IST" name="setup" finished-at="2024-12-24T03:58:09 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testStoreInventory()[pri:1, instance:api.Tests.StoreTest@206a70ef]" started-at="2024-12-24T03:58:09 IST" name="testStoreInventory" finished-at="2024-12-24T03:58:10 IST" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoreInventory -->
+        <test-method signature="testPlaceOrder()[pri:2, instance:api.Tests.StoreTest@206a70ef]" started-at="2024-12-24T03:58:10 IST" name="testPlaceOrder" finished-at="2024-12-24T03:58:12 IST" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceOrder -->
+        <test-method signature="testGetOrderDetails()[pri:3, instance:api.Tests.StoreTest@206a70ef]" started-at="2024-12-24T03:58:12 IST" name="testGetOrderDetails" finished-at="2024-12-24T03:58:13 IST" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOrderDetails -->
+        <test-method signature="testdeleteOrder()[pri:4, instance:api.Tests.StoreTest@206a70ef]" started-at="2024-12-24T03:58:13 IST" name="testdeleteOrder" finished-at="2024-12-24T03:58:14 IST" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeleteOrder -->
+      </class> <!-- api.Tests.StoreTest -->
+      <class name="api.Tests.UserTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.Tests.UserTests@75d4a5c2]" started-at="2024-12-24T03:57:57 IST" name="setup" finished-at="2024-12-24T03:57:57 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateUser()[pri:1, instance:api.Tests.UserTests@75d4a5c2]" started-at="2024-12-24T03:57:57 IST" name="testCreateUser" finished-at="2024-12-24T03:58:01 IST" duration-ms="3717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.Tests.UserTests@75d4a5c2]" started-at="2024-12-24T03:58:01 IST" name="testGetUserByName" finished-at="2024-12-24T03:58:02 IST" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.Tests.UserTests@75d4a5c2]" started-at="2024-12-24T03:58:02 IST" name="testUpdateUserByName" finished-at="2024-12-24T03:58:05 IST" duration-ms="2642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.Tests.UserTests@75d4a5c2]" started-at="2024-12-24T03:58:05 IST" name="testDeleteUserByName" finished-at="2024-12-24T03:58:06 IST" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method signature="testUserLogin()[pri:5, instance:api.Tests.UserTests@75d4a5c2]" started-at="2024-12-24T03:58:06 IST" name="testUserLogin" finished-at="2024-12-24T03:58:08 IST" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method signature="testUserLogout()[pri:6, instance:api.Tests.UserTests@75d4a5c2]" started-at="2024-12-24T03:58:08 IST" name="testUserLogout" finished-at="2024-12-24T03:58:09 IST" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogout -->
+      </class> <!-- api.Tests.UserTests -->
+    </test> <!-- ApiTest -->
+    <test started-at="2024-12-24T03:58:23 IST" name="DataDrivenTest" finished-at="2024-12-24T03:59:19 IST" duration-ms="55846">
+      <class name="api.Tests.UserDDTest">
+        <test-method signature="testCreateMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:25 IST" name="testCreateMultipleUsers" data-provider="allData" finished-at="2024-12-24T03:58:27 IST" duration-ms="1298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1011]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jon.smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jon]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jon.smith@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Smith#21]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8523721665]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsers -->
+        <test-method signature="testCreateMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:27 IST" name="testCreateMultipleUsers" data-provider="allData" finished-at="2024-12-24T03:58:28 IST" duration-ms="1323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1012]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kim.patty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kim]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Patty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[kim.patty@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kim$13]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7684746354]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsers -->
+        <test-method signature="testCreateMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:28 IST" name="testCreateMultipleUsers" data-provider="allData" finished-at="2024-12-24T03:58:29 IST" duration-ms="1381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1013]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[richard.steve]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Richard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[richard.steve@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Steve$45]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8565768475]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsers -->
+        <test-method signature="testCreateMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:29 IST" name="testCreateMultipleUsers" data-provider="allData" finished-at="2024-12-24T03:58:31 IST" duration-ms="1268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1014]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[roy.joe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Roy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Joe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[roy.joe@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Roy#76]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4656457674]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsers -->
+        <test-method signature="testCreateMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:31 IST" name="testCreateMultipleUsers" data-provider="allData" finished-at="2024-12-24T03:58:32 IST" duration-ms="1425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mitchel.reinger]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mitchel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Reinger]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mitchel.reinger@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Reinger#55]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8646575345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsers -->
+        <test-method signature="testCreateMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:32 IST" name="testCreateMultipleUsers" data-provider="allData" finished-at="2024-12-24T03:58:34 IST" duration-ms="1353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[matt.cartwright]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Matt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cartwright]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[matt.cartwright@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Matt#76]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8754214268]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsers -->
+        <test-method signature="testCreateMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:34 IST" name="testCreateMultipleUsers" data-provider="allData" finished-at="2024-12-24T03:58:35 IST" duration-ms="1389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[marquis.larson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Marquis]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Larson]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[marquis.larson@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Larson#45]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7075643675]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsers -->
+        <test-method signature="testCreateMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:35 IST" name="testCreateMultipleUsers" data-provider="allData" finished-at="2024-12-24T03:58:36 IST" duration-ms="1216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[carmella.halvorson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Carmella]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Halvorson]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[carmella.halvorson@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Carmella#79]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4576483765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsers -->
+        <test-method signature="testCreateMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:36 IST" name="testCreateMultipleUsers" data-provider="allData" finished-at="2024-12-24T03:58:37 IST" duration-ms="1336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1019]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[joel.grant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Joel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Grant]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[joel.grant@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[#99]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9738527526]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsers -->
+        <test-method signature="testCreateMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:37 IST" name="testCreateMultipleUsers" data-provider="allData" finished-at="2024-12-24T03:58:39 IST" duration-ms="1316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[matthew.grady]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Matthew]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Grady]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[matthew.grady@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Matthew#54]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7594263686]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUsers -->
+        <test-method signature="testDeleteUserByUserName(java.lang.String)[pri:2, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:39 IST" name="testDeleteUserByUserName" data-provider="singleColumn" finished-at="2024-12-24T03:58:40 IST" duration-ms="1367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jon.smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByUserName -->
+        <test-method signature="testDeleteUserByUserName(java.lang.String)[pri:2, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:40 IST" name="testDeleteUserByUserName" data-provider="singleColumn" finished-at="2024-12-24T03:58:42 IST" duration-ms="1369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kim.patty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByUserName -->
+        <test-method signature="testDeleteUserByUserName(java.lang.String)[pri:2, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:42 IST" name="testDeleteUserByUserName" data-provider="singleColumn" finished-at="2024-12-24T03:58:43 IST" duration-ms="1363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[richard.steve]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByUserName -->
+        <test-method signature="testDeleteUserByUserName(java.lang.String)[pri:2, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:43 IST" name="testDeleteUserByUserName" data-provider="singleColumn" finished-at="2024-12-24T03:58:44 IST" duration-ms="1211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[roy.joe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByUserName -->
+        <test-method signature="testDeleteUserByUserName(java.lang.String)[pri:2, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:44 IST" name="testDeleteUserByUserName" data-provider="singleColumn" finished-at="2024-12-24T03:58:45 IST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mitchel.reinger]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByUserName -->
+        <test-method signature="testDeleteUserByUserName(java.lang.String)[pri:2, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:45 IST" name="testDeleteUserByUserName" data-provider="singleColumn" finished-at="2024-12-24T03:58:47 IST" duration-ms="1341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[matt.cartwright]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByUserName -->
+        <test-method signature="testDeleteUserByUserName(java.lang.String)[pri:2, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:47 IST" name="testDeleteUserByUserName" data-provider="singleColumn" finished-at="2024-12-24T03:58:48 IST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[marquis.larson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByUserName -->
+        <test-method signature="testDeleteUserByUserName(java.lang.String)[pri:2, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:48 IST" name="testDeleteUserByUserName" data-provider="singleColumn" finished-at="2024-12-24T03:58:49 IST" duration-ms="1331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carmella.halvorson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByUserName -->
+        <test-method signature="testDeleteUserByUserName(java.lang.String)[pri:2, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:49 IST" name="testDeleteUserByUserName" data-provider="singleColumn" finished-at="2024-12-24T03:58:51 IST" duration-ms="1230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[joel.grant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByUserName -->
+        <test-method signature="testDeleteUserByUserName(java.lang.String)[pri:2, instance:api.Tests.UserDDTest@5dda768f]" started-at="2024-12-24T03:58:51 IST" name="testDeleteUserByUserName" data-provider="singleColumn" finished-at="2024-12-24T03:58:52 IST" duration-ms="1319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[matthew.grady]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByUserName -->
+      </class> <!-- api.Tests.UserDDTest -->
+      <class name="api.Tests.PetDDTest">
+        <test-method signature="addNewPetsInStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:58:53 IST" name="addNewPetsInStore" data-provider="allData" finished-at="2024-12-24T03:58:54 IST" duration-ms="1233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dog]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\src\test\resources\petAnimalImages\Dog.jfif]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[jon.smith]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetsInStore -->
+        <test-method signature="addNewPetsInStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:58:54 IST" name="addNewPetsInStore" data-provider="allData" finished-at="2024-12-24T03:58:55 IST" duration-ms="1281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cat]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cat]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\src\test\resources\petAnimalImages\Cat.jfif]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[kim.patty]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetsInStore -->
+        <test-method signature="addNewPetsInStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:58:55 IST" name="addNewPetsInStore" data-provider="allData" finished-at="2024-12-24T03:58:57 IST" duration-ms="1372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rabit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rabit]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\src\test\resources\petAnimalImages\Rabit.jfif]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[richard.steve]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetsInStore -->
+        <test-method signature="addNewPetsInStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:58:57 IST" name="addNewPetsInStore" data-provider="allData" finished-at="2024-12-24T03:58:58 IST" duration-ms="1221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bull]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bull]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\src\test\resources\petAnimalImages\Bull.jfif]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[roy.joe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetsInStore -->
+        <test-method signature="addNewPetsInStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:58:58 IST" name="addNewPetsInStore" data-provider="allData" finished-at="2024-12-24T03:58:59 IST" duration-ms="1231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Goat]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Goat]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\src\test\resources\petAnimalImages\Goat.jfif]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mitchel.reinger]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetsInStore -->
+        <test-method signature="addNewPetsInStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:58:59 IST" name="addNewPetsInStore" data-provider="allData" finished-at="2024-12-24T03:59:00 IST" duration-ms="1379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cow]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cow]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\src\test\resources\petAnimalImages\Cow.jfif]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[matt.cartwright]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[pending]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetsInStore -->
+        <test-method signature="addNewPetsInStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:00 IST" name="addNewPetsInStore" data-provider="allData" finished-at="2024-12-24T03:59:02 IST" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chiken]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chiken]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\src\test\resources\petAnimalImages\Chiken.jfif]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[marquis.larson]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[pending]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetsInStore -->
+        <test-method signature="addNewPetsInStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:02 IST" name="addNewPetsInStore" data-provider="allData" finished-at="2024-12-24T03:59:03 IST" duration-ms="1392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Panda]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Panda]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\src\test\resources\petAnimalImages\Panda.jfif]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[carmella.halvorson]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetsInStore -->
+        <test-method signature="addNewPetsInStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:03 IST" name="addNewPetsInStore" data-provider="allData" finished-at="2024-12-24T03:59:05 IST" duration-ms="1297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Horse]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Horse]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\src\test\resources\petAnimalImages\Horse.jfif]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[joel.grant]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetsInStore -->
+        <test-method signature="addNewPetsInStore(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:05 IST" name="addNewPetsInStore" data-provider="allData" finished-at="2024-12-24T03:59:06 IST" duration-ms="1277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parrot]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Parrot]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\src\test\resources\petAnimalImages\Parrot.jfif]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[matthew.grady]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPetsInStore -->
+        <test-method signature="deletePetsFromStore(java.lang.String)[pri:2, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:06 IST" name="deletePetsFromStore" data-provider="singleColumn" finished-at="2024-12-24T03:59:07 IST" duration-ms="1364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetsFromStore -->
+        <test-method signature="deletePetsFromStore(java.lang.String)[pri:2, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:07 IST" name="deletePetsFromStore" data-provider="singleColumn" finished-at="2024-12-24T03:59:09 IST" duration-ms="1362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetsFromStore -->
+        <test-method signature="deletePetsFromStore(java.lang.String)[pri:2, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:09 IST" name="deletePetsFromStore" data-provider="singleColumn" finished-at="2024-12-24T03:59:10 IST" duration-ms="1357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetsFromStore -->
+        <test-method signature="deletePetsFromStore(java.lang.String)[pri:2, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:10 IST" name="deletePetsFromStore" data-provider="singleColumn" finished-at="2024-12-24T03:59:12 IST" duration-ms="1412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetsFromStore -->
+        <test-method signature="deletePetsFromStore(java.lang.String)[pri:2, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:12 IST" name="deletePetsFromStore" data-provider="singleColumn" finished-at="2024-12-24T03:59:13 IST" duration-ms="1204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetsFromStore -->
+        <test-method signature="deletePetsFromStore(java.lang.String)[pri:2, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:13 IST" name="deletePetsFromStore" data-provider="singleColumn" finished-at="2024-12-24T03:59:14 IST" duration-ms="1420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetsFromStore -->
+        <test-method signature="deletePetsFromStore(java.lang.String)[pri:2, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:14 IST" name="deletePetsFromStore" data-provider="singleColumn" finished-at="2024-12-24T03:59:15 IST" duration-ms="1216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetsFromStore -->
+        <test-method signature="deletePetsFromStore(java.lang.String)[pri:2, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:15 IST" name="deletePetsFromStore" data-provider="singleColumn" finished-at="2024-12-24T03:59:17 IST" duration-ms="1418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetsFromStore -->
+        <test-method signature="deletePetsFromStore(java.lang.String)[pri:2, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:17 IST" name="deletePetsFromStore" data-provider="singleColumn" finished-at="2024-12-24T03:59:18 IST" duration-ms="1271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetsFromStore -->
+        <test-method signature="deletePetsFromStore(java.lang.String)[pri:2, instance:api.Tests.PetDDTest@7a8c8dcf]" started-at="2024-12-24T03:59:18 IST" name="deletePetsFromStore" data-provider="singleColumn" finished-at="2024-12-24T03:59:19 IST" duration-ms="1224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetsFromStore -->
+      </class> <!-- api.Tests.PetDDTest -->
+    </test> <!-- DataDrivenTest -->
+  </suite> <!-- PetStoreSuite -->
+</testng-results>

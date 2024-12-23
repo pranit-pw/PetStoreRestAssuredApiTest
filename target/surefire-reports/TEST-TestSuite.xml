@@ -1,0 +1,2052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="86.842" tests="56" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\dell\eclipse-workspace\RestAssured\PetStoreRestAssuredApiTest\target\test-classes;C:\Users\dell\eclipse-workspace\RestAssured\PetStoreRestAssuredApiTest\target\classes;C:\Users\dell\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\dell\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dell\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dell\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\dell\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\dell\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\dell\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\dell\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\dell\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\dell\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\dell\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\dell\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\dell\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\dell\.m2\repository\com\networknt\json-schema-validator\1.5.4\json-schema-validator-1.5.4.jar;C:\Users\dell\.m2\repository\com\ethlo\time\itu\1.10.2\itu-1.10.2.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.1\jackson-dataformat-yaml-2.18.1.jar;C:\Users\dell\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\dell\.m2\repository\org\json\json\20240205\json-20240205.jar;C:\Users\dell\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\dell\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\dell\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\dell\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\dell\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\dell\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\dell\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\dell\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\dell\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\dell\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\dell\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\dell\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\dell\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\dell\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\dell\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\dell\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\dell\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\dell\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\dell\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\dell\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\dell\AppData\Local\Temp\surefire9217084058709410871\surefirebooter-20241224041250387_3.jar C:\Users\dell\AppData\Local\Temp\surefire9217084058709410871 2024-12-24T04-12-50_234-jvmRun1 surefire-20241224041250387_1tmp surefire_0-20241224041250387_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\dell\eclipse-workspace\RestAssured\PetStoreRestAssuredApiTest\target\test-classes;C:\Users\dell\eclipse-workspace\RestAssured\PetStoreRestAssuredApiTest\target\classes;C:\Users\dell\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\dell\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dell\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dell\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\dell\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\dell\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\dell\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\dell\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\dell\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\dell\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\dell\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\dell\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\dell\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\dell\.m2\repository\com\networknt\json-schema-validator\1.5.4\json-schema-validator-1.5.4.jar;C:\Users\dell\.m2\repository\com\ethlo\time\itu\1.10.2\itu-1.10.2.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.1\jackson-dataformat-yaml-2.18.1.jar;C:\Users\dell\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\dell\.m2\repository\org\json\json\20240205\json-20240205.jar;C:\Users\dell\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\dell\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\dell\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\dell\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\dell\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\dell\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\dell\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\dell\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\dell\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\dell\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\dell\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\dell\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\dell\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\dell\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\dell\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\dell\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\dell\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\dell\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\dell\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\dell\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dell"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\dell\eclipse-workspace\RestAssured\PetStoreRestAssuredApiTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\dell\AppData\Local\Temp\surefire9217084058709410871\surefirebooter-20241224041250387_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
+    <property name="user.name" value="PraNit"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="C:\Users\dell\eclipse-workspace\RestAssured\PetStoreRestAssuredApiTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-21\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\OpenSSH;C:\Program Files\nodejs\;C:\Users\dell\AppData\Roaming\npm;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\OpenSSL-Win64\lib;C:\apache-maven-3.9.9\bin;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Users\dell\AppData\Local\GitHubDesktop\bin;C:\Users\dell\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testCreateUser" classname="api.Tests.UserTests" time="3.647">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:42:55 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1884155890"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testGetUserByName" classname="api.Tests.UserTests" time="1.483">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:42:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1884155890,
+    "username": "ben.nolan",
+    "firstName": "Azucena",
+    "lastName": "Stracke",
+    "email": "isela.macejkovic@yahoo.com",
+    "password": "gq4tb",
+    "phone": "(653) 116-7887",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserByName" classname="api.Tests.UserTests" time="2.682">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1884155890"
+}
+HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:42:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1884155890,
+    "username": "ben.nolan",
+    "firstName": "Lashawnda",
+    "lastName": "Bernhard",
+    "email": "elwood.schneider@hotmail.com",
+    "password": "gq4tb",
+    "phone": "(653) 116-7887",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByName" classname="api.Tests.UserTests" time="1.489">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:01 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ben.nolan"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUserLogin" classname="api.Tests.UserTests" time="1.425">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:02 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+X-Expires-After: Mon Dec 23 23:43:02 UTC 2024
+X-Rate-Limit: 5000
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1734993782869"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUserLogout" classname="api.Tests.UserTests" time="1.404">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:04 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testStoreInventory" classname="api.Tests.StoreTest" time="1.465">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:05 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "totvs": 5,
+    "sold": 57,
+    "Vendido": 1,
+    "string": 354,
+    "sold ": 1,
+    "NOT available": 1,
+    "unavailable": 13,
+    "Reservado": 1,
+    "pending": 49,
+    "available": 267,
+    "weisskeiner1": 1,
+    "avalible": 1,
+    "Disponível": 1,
+    "always pooping": 1,
+    "<string>": 1,
+    "enKOIeJAPt": 1,
+    "soldout": 1,
+    "AVAILABLE": 8,
+    "SOLD": 1,
+    "VL4EQE": 1,
+    "not available": 4,
+    "closed": 1,
+    "500usd": 1
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testPlaceOrder" classname="api.Tests.StoreTest" time="1.394">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 9,
+    "petId": 12,
+    "quantity": 3,
+    "shipDate": "2024-12-24T04:13:03.000+0000",
+    "status": "placed",
+    "complete": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetOrderDetails" classname="api.Tests.StoreTest" time="1.399">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 9,
+    "petId": 12,
+    "quantity": 3,
+    "shipDate": "2024-12-24T04:13:03.000+0000",
+    "status": "placed",
+    "complete": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testdeleteOrder" classname="api.Tests.StoreTest" time="1.442">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 9,
+    "petId": 12,
+    "quantity": 3,
+    "shipDate": "2024-12-24T04:13:03.000+0000",
+    "status": "placed",
+    "complete": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addNewPetInStore" classname="api.Tests.PetTest" time="1.375">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:11 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 7,
+    "name": "hamster",
+    "photoUrls": [
+        "C:\\Users\\dell\\eclipse-workspace\\RestAssured\\PetStoreRestAssuredApiTest\\src\\test\\resources\\petAnimalImages\\Goat.jfif"
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateExistingPetDetails" classname="api.Tests.PetTest" time="1.429">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 7,
+    "name": "hamster",
+    "photoUrls": [
+        "C:\\Users\\dell\\eclipse-workspace\\RestAssured\\PetStoreRestAssuredApiTest\\src\\test\\resources\\petAnimalImages\\Goat.jfif"
+    ],
+    "status": "sold"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="findPetById" classname="api.Tests.PetTest" time="1.338">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:14 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 7,
+    "name": "hamster",
+    "photoUrls": [
+        "C:\\Users\\dell\\eclipse-workspace\\RestAssured\\PetStoreRestAssuredApiTest\\src\\test\\resources\\petAnimalImages\\Goat.jfif"
+    ],
+    "status": "sold"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="findPetByStatus" classname="api.Tests.PetTest" time="1.785">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+[
+    {
+        "id": 13,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 74408294,
+        "category": {
+            "id": 70278030,
+            "name": "in adipisicing"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "nostrud sunt eu occaecat elit",
+            "esse aute non magna"
+        ],
+        "tags": [
+            {
+                "id": 81618844,
+                "name": "id aliquip"
+            },
+            {
+                "id": -96817599,
+                "name": "ut elit esse"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 60,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 7574746,
+        "category": {
+            "id": 1,
+            "name": "Cat"
+        },
+        "name": "Hardy",
+        "photoUrls": [
+            "https://i.pinimg.com/originals/5c/2c/44/5c2c44f16da1caf134c00bc4f9c72ea0.jpg"
+        ],
+        "tags": [
+            {
+                "id": 7805,
+                "name": "Mainecoon"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1734959390,
+        "category": {
+            "id": 2,
+            "name": "Chico"
+        },
+        "name": "PerroFeo",
+        "photoUrls": [
+            "http://placeimg.com/640/480"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 291099,
+        "name": "Babasik",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 666897,
+        "category": {
+            "id": 686577,
+            "name": "jsbbjJSm"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "THrPAf"
+        ],
+        "tags": [
+            {
+                "id": 640705,
+                "name": "UvWPeAXM"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 20593238,
+        "category": {
+            "id": 96650357,
+            "name": "ut aute"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "in deserunt sit qui elit",
+            "do dolore"
+        ],
+        "tags": [
+            {
+                "id": 80489283,
+                "name": "dolore elit aute Excepteur anim"
+            },
+            {
+                "id": -29854588,
+                "name": "enim"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 10222,
+        "category": {
+            "id": 2,
+            "name": "cat"
+        },
+        "name": "Grey",
+        "photoUrls": [
+            "https://fsdgdg"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "nace"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 6087,
+        "category": {
+            "id": 19875,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 22550,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1963,
+        "category": {
+            "id": 11711,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 24899,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 8278,
+        "category": {
+            "id": 12293,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 21464,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1234567,
+        "category": {
+            "id": 35,
+            "name": "caini"
+        },
+        "name": "Grivei update",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "dalmatian"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 550,
+        "category": {
+            "id": 450,
+            "name": "abc"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 230,
+                "name": "xyz"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9871,
+        "category": {
+            "id": 9865,
+            "name": "drromAPI"
+        },
+        "name": "imorrd",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 9874,
+                "name": "drromi4"
+            },
+            {
+                "id": 9871,
+                "name": "drromi4"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 56331470,
+        "category": {
+            "id": 28262311,
+            "name": "nostrud proident"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "sunt dolor veniam aliqua",
+            "nulla anim ex"
+        ],
+        "tags": [
+            {
+                "id": 21515670,
+                "name": "voluptate in elit ani"
+            },
+            {
+                "id": -36858804,
+                "name": "proident non deserunt"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 2541,
+        "name": "Luna Maria",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 330,
+        "category": {
+            "id": 5,
+            "name": "dogs"
+        },
+        "name": "Sharik",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 5,
+                "name": "dog"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 24093935,
+        "category": {
+            "id": -6714225,
+            "name": "do magna"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "aute",
+            "velit"
+        ],
+        "tags": [
+            {
+                "id": 71561130,
+                "name": "deserunt ut occaecat"
+            },
+            {
+                "id": -1195842,
+                "name": "nulla nostrud occaeca"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 91507602,
+        "category": {
+            "id": -95494262,
+            "name": "sit ea"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "deserunt",
+            "id sint et"
+        ],
+        "tags": [
+            {
+                "id": -54029842,
+                "name": "ullamco"
+            },
+            {
+                "id": 13198949,
+                "name": "id"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 3708840,
+        "category": {
+            "id": 9855812,
+            "name": "Duis in commodo"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "minim id in sit",
+            "est esse culpa nisi"
+        ],
+        "tags": [
+            {
+                "id": -89808508,
+                "name": "sit"
+            },
+            {
+                "id": -5238278,
+                "name": "dolor in"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 3903023,
+        "category": {
+            "id": -56789506,
+            "name": "cillum p"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "aliquip Excepteur",
+            "commodo dolore consequat eu"
+        ],
+        "tags": [
+            {
+                "id": 60937326,
+                "name": "irure in"
+            },
+            {
+                "id": 20218536,
+                "name": "sint consectetur ad voluptate"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 45850,
+        "name": "Pet862",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 922337203685488601,
+        "category": {
+            "id": 2,
+            "name": "dog"
+        },
+        "name": "Chappi dog 78",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 192957,
+        "category": {
+            "id": 619356,
+            "name": "sabre"
+        },
+        "name": "puppy2",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 678887,
+                "name": "sohan"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9688779,
+        "category": {
+            "id": 3,
+            "name": "dog"
+        },
+        "name": "Neville",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 999882,
+        "category": {
+            "id": 373284,
+            "name": "sabre"
+        },
+        "name": "puppy2",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 678887,
+                "name": "sohan"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 934157,
+        "category": {
+            "id": 769710,
+            "name": "sabre"
+        },
+        "name": "puppy2",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 678887,
+                "name": "sohan"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854773917,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "boss2.0",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 33377689,
+        "category": {
+            "id": -5871190,
+            "name": "in voluptate velit proident"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "amet in",
+            "aute in"
+        ],
+        "tags": [
+            {
+                "id": -26593919,
+                "name": "tempor eiusmod ipsum"
+            },
+            {
+                "id": 78722837,
+                "name": "in sit ullamco aliqua qui"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 38480305,
+        "category": {
+            "id": -59161747,
+            "name": "Duis voluptate consequat"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "ex enim ",
+            "nisi est"
+        ],
+        "tags": [
+            {
+                "id": 49121599,
+                "name": "non anim exercitation"
+            },
+            {
+                "id": 2672065,
+                "name": "sint"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 260512,
+        "category": {
+            "id": 359691,
+            "name": "sabre"
+        },
+        "name": "puppy2",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 678887,
+                "name": "sohan"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 62751340,
+        "category": {
+            "id": -37441254,
+            "name": "aute cillum voluptate veniam"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "mollit veniam",
+            "dolor enim reprehenderit"
+        ],
+        "tags": [
+            {
+                "id": 91709679,
+                "name": "anim adipisicing"
+            },
+            {
+                "id": 919209,
+                "name": "sint anim"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 2022000,
+        "category": {
+            "id": 0,
+            "name": "bird"
+        },
+        "name": "Star",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "shy"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 70119872,
+        "category": {
+            "id": 93142102,
+            "name": "Змея"
+        },
+        "name": "Анаконда",
+        "photoUrls": [
+            "mollit",
+            "https://irecommend.ru/sites/default/files/product-images/98227/3lJyZagay9aoxv06o6TJCQ.jpg"
+        ],
+        "tags": [
+            {
+                "id": -19037377,
+                "name": "deserunt veniam nulla reprehenderit"
+            },
+            {
+                "id": 51503358,
+                "name": "ullamco aliqua Excepteur cillum"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 70119872000,
+        "category": {
+            "id": 93142102,
+            "name": "Заяц французский 2"
+        },
+        "name": "LAPIN LAPIN",
+        "photoUrls": [
+            "mollit",
+            "https://irecommend.ru/sites/default/files/product-images/98227/3lJyZagay9aoxv06o6TJCQ.jpg"
+        ],
+        "tags": [
+            {
+                "id": -19037377,
+                "name": "deserunt veniam nulla reprehenderit"
+            },
+            {
+                "id": 51503358,
+                "name": "ullamco aliqua Excepteur cillum"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 5644444,
+        "category": {
+            "id": 566555,
+            "name": "nulla minim laborum deserunt"
+        },
+        "name": "Собака",
+        "photoUrls": [
+            "anim ullamco laborum eu",
+            "eiusm"
+        ],
+        "tags": [
+            {
+                "id": 10156776,
+                "name": "cillum adipisicing"
+            },
+            {
+                "id": -53013483,
+                "name": "sit Ut enim dolore"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 777123,
+        "category": {
+            "id": 777123,
+            "name": "fish"
+        },
+        "name": "Nemo",
+        "photoUrls": [
+            "https://img1.fonwall.ru/o/hl/sea-photography-flower-underwater.jpeg?route=mid&amp;h=750",
+            "https://img1.fonwall.ru/o/hl/sea-photography-flower-underwater.jpeg?route=mid&amp;h=750"
+        ],
+        "tags": [
+            {
+                "id": 123,
+                "name": "priff"
+            },
+            {
+                "id": 123,
+                "name": "ribka"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 87705905,
+        "category": {
+            "id": 22032096,
+            "name": "reprehenderit in minim"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "cillum Ut ",
+            "et adipisicing consequat"
+        ],
+        "tags": [
+            {
+                "id": -14103627,
+                "name": "reprehenderit"
+            },
+            {
+                "id": 47181501,
+                "name": "occaecat"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 51338511,
+        "category": {
+            "id": 43003430,
+            "name": "ex ullamco"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "sit ipsum",
+            "nulla eu aliqua incididunt"
+        ],
+        "tags": [
+            {
+                "id": 1864541,
+                "name": "anim elit amet"
+            },
+            {
+                "id": 98553871,
+                "name": "ut"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 52931566,
+        "category": {
+            "id": 91307171,
+            "name": "sint aliqua"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "ut culpa null",
+            "quis"
+        ],
+        "tags": [
+            {
+                "id": -40794559,
+                "name": "velit proident nulla"
+            },
+            {
+                "id": -14228534,
+                "name": "ess"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 79897977,
+        "category": {
+            "id": -43696612,
+            "name": "exercitation"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolor",
+            "velit voluptate"
+        ],
+        "tags": [
+            {
+                "id": 59218385,
+                "name": "aliqua"
+            },
+            {
+                "id": 72829050,
+                "name": "nostrud ut"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 71551342,
+        "category": {
+            "id": 14955550,
+            "name": "ipsum do amet"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolore dolor",
+            "pariatur elit ea"
+        ],
+        "tags": [
+            {
+                "id": -17398234,
+                "name": "non ex"
+            },
+            {
+                "id": -32010324,
+                "name": "ut culpa aliqua est non"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 23437566,
+        "category": {
+            "id": -46393995,
+            "name": "ex ea culpa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "ut ex veniam dolor",
+            "in aliquip"
+        ],
+        "tags": [
+            {
+                "id": 91638732,
+                "name": "Excepteur ea commodo esse"
+            },
+            {
+                "id": 42980181,
+                "name": "nulla officia ut labore"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 24364310,
+        "category": {
+            "id": -12307344,
+            "name": "kitten бфрмалейка"
+        },
+        "name": "kitten1",
+        "photoUrls": [
+            "dolor in",
+            "occaecat dolore consectetur adipisicing"
+        ],
+        "tags": [
+            {
+                "id": -22679152,
+                "name": "non ex"
+            },
+            {
+                "id": 33284191,
+                "name": "sed pariatur in"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1777,
+        "category": {
+            "id": 1777,
+            "name": "fish"
+        },
+        "name": "Nemo",
+        "photoUrls": [
+            "https://www.google.com/imgres?q=fish&imgurl=https%3A%2F%2Fwww.aqueon.com%2F-%2Fmedia%2Fproject%2Foneweb%2Faqueon%2Fus%2Fblog%2Fways-to-know-your-fish-are-happy%2Ffish-are-happy-and-healthy-1.png&imgrefurl=https%3A%2F%2Fwww.aqueon.com%2Farticles%2Fways-to-know-your-fish-are-happy&docid=aYbA3xYlpw0ZcM&tbnid=uVomlcyWEqpA8M&vet=12ahUKEwibjaX_oeOIAxU0BdsEHe31LPwQM3oECB8QAA..i&w=1000&h=650&hcb=2&ved=2ahUKEwibjaX_oeOIAxU0BdsEHe31LPwQM3oECB8QAA",
+            "<string>"
+        ],
+        "tags": [
+            {
+                "id": 1777,
+                "name": "Fish"
+            },
+            {
+                "id": 1777,
+                "name": "Fish"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1777123123,
+        "category": {
+            "id": 1777,
+            "name": "fishs"
+        },
+        "name": "Nemo FISH",
+        "photoUrls": [
+            "https://www.google.com/imgres?q=fish&imgurl=https%3A%2F%2Fwww.aqueon.com%2F-%2Fmedia%2Fproject%2Foneweb%2Faqueon%2Fus%2Fblog%2Fways-to-know-your-fish-are-happy%2Ffish-are-happy-and-healthy-1.png&imgrefurl=https%3A%2F%2Fwww.aqueon.com%2Farticles%2Fways-to-know-your-fish-are-happy&docid=aYbA3xYlpw0ZcM&tbnid=uVomlcyWEqpA8M&vet=12ahUKEwibjaX_oeOIAxU0BdsEHe31LPwQM3oECB8QAA..i&w=1000&h=650&hcb=2&ved=2ahUKEwibjaX_oeOIAxU0BdsEHe31LPwQM3oECB8QAA",
+            "<string>"
+        ],
+        "tags": [
+            {
+                "id": 1777,
+                "name": "Fish"
+            },
+            {
+                "id": 1777,
+                "name": "Fish"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1711982,
+        "category": {
+            "id": 52551857,
+            "name": "non Lorem tempor"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "veniam",
+            "reprehenderit commodo proident occaecat"
+        ],
+        "tags": [
+            {
+                "id": -12689894,
+                "name": "veniam mollit"
+            },
+            {
+                "id": -27514803,
+                "name": "sed ullamco ut"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 82188160,
+        "category": {
+            "id": 81640824,
+            "name": "nisi exercitation reprehenderit dolore"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "proident eu enim",
+            "mollit cillum nisi"
+        ],
+        "tags": [
+            {
+                "id": 6316356,
+                "name": "laborum magn"
+            },
+            {
+                "id": 73149614,
+                "name": "veniam fugiat amet si"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 38541659,
+        "category": {
+            "id": -70999792,
+            "name": "dolore aliqua irure"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "cupidatat quis",
+            "ipsum deserunt"
+        ],
+        "tags": [
+            {
+                "id": 96985450,
+                "name": "proident adipisicing officia"
+            },
+            {
+                "id": -17203769,
+                "name": "sunt reprehenderit"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 33845545,
+        "category": {
+            "id": -13100367,
+            "name": "deserunt aute irure"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolore reprehenderit adipisicing sed",
+            "tempor irure consectetur amet"
+        ],
+        "tags": [
+            {
+                "id": -43225306,
+                "name": "laborum proident Excepteur"
+            },
+            {
+                "id": -7466415,
+                "name": "ut in cupidatat laboris"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 40010473,
+        "category": {
+            "id": -13430874,
+            "name": "in fugiat ipsum"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "proident sed ut",
+            "aute laboris elit occaecat aliquip"
+        ],
+        "tags": [
+            {
+                "id": -64712721,
+                "name": "ad"
+            },
+            {
+                "id": 40504054,
+                "name": "in"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 76621170,
+        "category": {
+            "id": 16364966,
+            "name": "Ut cupidatat velit irure minim"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolore quis",
+            "elit ea aliqua dolor adipisicing"
+        ],
+        "tags": [
+            {
+                "id": 24591216,
+                "name": "ullamco magna laborum ut"
+            },
+            {
+                "id": 52512638,
+                "name": "sunt non Lorem"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 90369791,
+        "category": {
+            "id": -28594492,
+            "name": "ad"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "nulla ipsum dolor",
+            "cillum"
+        ],
+        "tags": [
+            {
+                "id": 16964237,
+                "name": "velit aliquip occaecat voluptate"
+            },
+            {
+                "id": -32143651,
+                "name": "sed nulla sint"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 24572652,
+        "category": {
+            "id": 70314021,
+            "name": "adipisicing dolore"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "magna dolor Ut in",
+            "in eiusm"
+        ],
+        "tags": [
+            {
+                "id": 85643839,
+                "name": "aliquip sit dolor"
+            },
+            {
+                "id": -89364963,
+                "name": "elit id reprehenderit eiusmod exercitation"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 23327731,
+        "category": {
+            "id": -92357313,
+            "name": "reprehenderit ut nostrud ut"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "Lorem laboris",
+            "laboris"
+        ],
+        "tags": [
+            {
+                "id": 89386643,
+                "name": "elit esse cillum"
+            },
+            {
+                "id": -23396785,
+                "name": "minim consectetur"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1,
+        "category": {
+            "id": 1,
+            "name": "cat"
+        },
+        "name": "dog",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 7,
+        "name": "hamster",
+        "photoUrls": [
+            "C:\\Users\\dell\\eclipse-workspace\\RestAssured\\PetStoreRestAssuredApiTest\\src\\test\\resources\\petAnimalImages\\Goat.jfif"
+        ],
+        "status": "sold"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="updatePetDetailsWithFormData" classname="api.Tests.PetTest" time="1.466">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:17 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "7"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetFromStore" classname="api.Tests.PetTest" time="1.496">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:18 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "7"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsers[1011, jon.smith, Jon, Smith, jon.smith@gmail.com, Smith#21, 8523721665](1)" classname="api.Tests.UserDDTest" time="1.373">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1011"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsers[1012, kim.patty, Kim, Patty, kim.patty@gmail.com, Kim$13, 7684746354](2)" classname="api.Tests.UserDDTest" time="1.361">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1012"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsers[1013, richard.steve, Richard, Steve, richard.steve@gmail.com, Steve$45, 8565768475](3)" classname="api.Tests.UserDDTest" time="1.361">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1013"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsers[1014, roy.joe, Roy, Joe, roy.joe@gmail.com, Roy#76, 4656457674](4)" classname="api.Tests.UserDDTest" time="1.385">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1014"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsers[1015, mitchel.reinger, Mitchel, Reinger, mitchel.reinger@gmail.com, Reinger#55, 8646575345](5)" classname="api.Tests.UserDDTest" time="1.358">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1015"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsers[1016, matt.cartwright, Matt, Cartwright, matt.cartwright@gmail.com, Matt#76, 8754214268](6)" classname="api.Tests.UserDDTest" time="1.404">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1016"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsers[1017, marquis.larson, Marquis, Larson, marquis.larson@gmail.com, Larson#45, 7075643675](7)" classname="api.Tests.UserDDTest" time="1.313">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1017"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsers[1018, carmella.halvorson, Carmella, Halvorson, carmella.halvorson@gmail.com, Carmella#79, 4576483765](8)" classname="api.Tests.UserDDTest" time="1.293">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1018"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsers[1019, joel.grant, Joel, Grant, joel.grant@gmail.com, #99, 9738527526](9)" classname="api.Tests.UserDDTest" time="1.4">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1019"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateMultipleUsers[1020, matthew.grady, Matthew, Grady, matthew.grady@gmail.com, Matthew#54, 7594263686](10)" classname="api.Tests.UserDDTest" time="1.221">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "1020"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByUserName[jon.smith](1)" classname="api.Tests.UserDDTest" time="1.202"/>
+  <testcase name="testDeleteUserByUserName[kim.patty](2)" classname="api.Tests.UserDDTest" time="1.356"/>
+  <testcase name="testDeleteUserByUserName[richard.steve](3)" classname="api.Tests.UserDDTest" time="1.338"/>
+  <testcase name="testDeleteUserByUserName[roy.joe](4)" classname="api.Tests.UserDDTest" time="1.236"/>
+  <testcase name="testDeleteUserByUserName[mitchel.reinger](5)" classname="api.Tests.UserDDTest" time="1.283"/>
+  <testcase name="testDeleteUserByUserName[matt.cartwright](6)" classname="api.Tests.UserDDTest" time="1.336"/>
+  <testcase name="testDeleteUserByUserName[marquis.larson](7)" classname="api.Tests.UserDDTest" time="1.219"/>
+  <testcase name="testDeleteUserByUserName[carmella.halvorson](8)" classname="api.Tests.UserDDTest" time="1.248"/>
+  <testcase name="testDeleteUserByUserName[joel.grant](9)" classname="api.Tests.UserDDTest" time="1.378"/>
+  <testcase name="testDeleteUserByUserName[matthew.grady](10)" classname="api.Tests.UserDDTest" time="1.245"/>
+  <testcase name="addNewPetsInStore[1, 1, Dog, Dog, C:\src\test\resources\petAnimalImages\Dog.jfif, 11, jon.smith, available](1)" classname="api.Tests.PetDDTest" time="1.252">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:52 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1,
+    "name": "Dog",
+    "photoUrls": [
+        "C:\\src\\test\\resources\\petAnimalImages\\Dog.jfif"
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addNewPetsInStore[2, 2, Cat, Cat, C:\src\test\resources\petAnimalImages\Cat.jfif, 12, kim.patty, available](2)" classname="api.Tests.PetDDTest" time="1.403">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:53 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 2,
+    "name": "Cat",
+    "photoUrls": [
+        "C:\\src\\test\\resources\\petAnimalImages\\Cat.jfif"
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addNewPetsInStore[3, 3, Rabit, Rabit, C:\src\test\resources\petAnimalImages\Rabit.jfif, 13, richard.steve, available](3)" classname="api.Tests.PetDDTest" time="1.326">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:54 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 3,
+    "name": "Rabit",
+    "photoUrls": [
+        "C:\\src\\test\\resources\\petAnimalImages\\Rabit.jfif"
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addNewPetsInStore[4, 4, Bull, Bull, C:\src\test\resources\petAnimalImages\Bull.jfif, 14, roy.joe, available](4)" classname="api.Tests.PetDDTest" time="1.532">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:56 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 4,
+    "name": "Bull",
+    "photoUrls": [
+        "C:\\src\\test\\resources\\petAnimalImages\\Bull.jfif"
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addNewPetsInStore[5, 5, Goat, Goat, C:\src\test\resources\petAnimalImages\Goat.jfif, 15, mitchel.reinger, available](5)" classname="api.Tests.PetDDTest" time="1.311">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 5,
+    "name": "Goat",
+    "photoUrls": [
+        "C:\\src\\test\\resources\\petAnimalImages\\Goat.jfif"
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addNewPetsInStore[6, 6, Cow, Cow, C:\src\test\resources\petAnimalImages\Cow.jfif, 16, matt.cartwright, pending](6)" classname="api.Tests.PetDDTest" time="1.362">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:43:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 6,
+    "name": "Cow",
+    "photoUrls": [
+        "C:\\src\\test\\resources\\petAnimalImages\\Cow.jfif"
+    ],
+    "status": "pending"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addNewPetsInStore[7, 7, Chiken, Chiken, C:\src\test\resources\petAnimalImages\Chiken.jfif, 17, marquis.larson, pending](7)" classname="api.Tests.PetDDTest" time="1.466">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 7,
+    "name": "Chiken",
+    "photoUrls": [
+        "C:\\src\\test\\resources\\petAnimalImages\\Chiken.jfif"
+    ],
+    "status": "pending"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addNewPetsInStore[8, 8, Panda, Panda, C:\src\test\resources\petAnimalImages\Panda.jfif, 18, carmella.halvorson, sold](8)" classname="api.Tests.PetDDTest" time="1.386">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:01 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 8,
+    "name": "Panda",
+    "photoUrls": [
+        "C:\\src\\test\\resources\\petAnimalImages\\Panda.jfif"
+    ],
+    "status": "sold"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addNewPetsInStore[9, 9, Horse, Horse, C:\src\test\resources\petAnimalImages\Horse.jfif, 19, joel.grant, available](9)" classname="api.Tests.PetDDTest" time="1.301">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 9,
+    "name": "Horse",
+    "photoUrls": [
+        "C:\\src\\test\\resources\\petAnimalImages\\Horse.jfif"
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addNewPetsInStore[10, 10, Parrot, Parrot, C:\src\test\resources\petAnimalImages\Parrot.jfif, 20, matthew.grady, available](10)" classname="api.Tests.PetDDTest" time="1.369">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:04 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 10,
+    "name": "Parrot",
+    "photoUrls": [
+        "C:\\src\\test\\resources\\petAnimalImages\\Parrot.jfif"
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetsFromStore[1](1)" classname="api.Tests.PetDDTest" time="1.239">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:06 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetsFromStore[2](2)" classname="api.Tests.PetDDTest" time="1.398">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetsFromStore[3](3)" classname="api.Tests.PetDDTest" time="1.393">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetsFromStore[4](4)" classname="api.Tests.PetDDTest" time="1.377">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:10 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "4"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetsFromStore[5](5)" classname="api.Tests.PetDDTest" time="1.433">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:11 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "5"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetsFromStore[6](6)" classname="api.Tests.PetDDTest" time="1.166">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "6"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetsFromStore[7](7)" classname="api.Tests.PetDDTest" time="1.268">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:14 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "7"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetsFromStore[8](8)" classname="api.Tests.PetDDTest" time="1.221">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:15 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetsFromStore[9](9)" classname="api.Tests.PetDDTest" time="1.252">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:16 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "9"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetsFromStore[10](10)" classname="api.Tests.PetDDTest" time="1.232">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 23 Dec 2024 22:44:17 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "10"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
